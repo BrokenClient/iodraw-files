@@ -60,9 +60,6 @@
         <mxCell id="motor_power" value="电机电源接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="layer4">
           <mxGeometry x="170" y="185" width="170" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="can_port" value="CAN 通信接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="layer4">
-          <mxGeometry x="660" y="185" width="170" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="rj45" value="RJ45 网口输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="layer4">
           <mxGeometry x="740" y="55" width="170" height="55" as="geometry" />
         </mxCell>
@@ -76,9 +73,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_main_motor_power" value="电机电源输出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="layer4" source="mainboard" target="motor_power">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_main_can" value="CAN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="layer4" source="mainboard" target="can_port">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_dc_main" value="主板供电" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="layer4" source="dc_input" target="mainboard">
@@ -99,8 +93,10 @@
         <mxCell id="e_motor_power" value="电源输入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="motor_power" target="motor">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_can_motor" value="CAN 通信" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="can_port" target="motor">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e_can_motor" value="CAN 通信" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="motor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="705" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e_dc_supply" value="DC 24 V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dc_power" target="dc_input">
           <mxGeometry relative="1" as="geometry" />
