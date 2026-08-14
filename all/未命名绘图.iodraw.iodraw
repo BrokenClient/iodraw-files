@@ -28,11 +28,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_board_slip_network" value="滑环网络" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.525;exitY=0.029;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="layer2" source="rj45">
+        <mxCell id="e_board_slip_network" value="滑环网络" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.101;exitY=-0.046;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="layer2" source="switch">
           <mxGeometry x="-0.3666" relative="1" as="geometry">
             <mxPoint x="847.5" y="360" as="sourcePoint" />
             <mxPoint x="575" y="80" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="829" y="357" />
               <mxPoint x="829" y="310" />
               <mxPoint x="890" y="310" />
               <mxPoint x="890" y="220" />
