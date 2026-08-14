@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="Qk4IqAy7TcL1qOBr4Hn5">
-    <mxGraphModel dx="675" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="472" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,18 @@
         </mxCell>
         <mxCell id="slip_ring" value="滑环" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=16;fontStyle=1;" vertex="1" parent="layer2">
           <mxGeometry x="425" y="55" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_board_slip_power" value="滑环电源" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="layer2">
+          <mxGeometry x="-0.2356" relative="1" as="geometry">
+            <mxPoint x="142.5" y="360" as="sourcePoint" />
+            <mxPoint x="425" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="142.5" y="220" />
+              <mxPoint x="297.5" y="220" />
+              <mxPoint x="297.5" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="layer3" value="第3层" style="swimlane;horizontal=1;startSize=30;rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="1000" height="130" as="geometry" />
@@ -69,16 +81,6 @@
         </mxCell>
         <mxCell id="e_network_sonar" value="以太网" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="slip_ring" target="sonar">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_board_slip_power" value="滑环电源" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="power_port" target="slip_ring">
-          <mxGeometry x="-0.2356" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="205" y="435" />
-              <mxPoint x="360" y="435" />
-              <mxPoint x="360" y="295" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="e_board_slip_network" value="滑环网络" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rj45" target="slip_ring">
           <mxGeometry x="-0.3666" relative="1" as="geometry">
