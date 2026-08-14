@@ -16,10 +16,10 @@
         <mxCell id="slip_ring" value="滑环" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=16;fontStyle=1;" vertex="1" parent="layer2">
           <mxGeometry x="425" y="55" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="e_board_slip_power" value="滑环电源" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="layer2" source="power_port">
+        <mxCell id="e_board_slip_power" value="滑环电源" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="layer2" source="power_port">
           <mxGeometry x="-0.2356" relative="1" as="geometry">
             <mxPoint x="142.5" y="360" as="sourcePoint" />
-            <mxPoint x="425" y="80" as="targetPoint" />
+            <mxPoint x="470" y="110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="170" y="220" />
               <mxPoint x="298" y="220" />
